@@ -43,7 +43,7 @@ class UsersCreate extends Component
             flash()->addSuccess('Usuário cadastrado com sucesso!');
             return redirect()->route('dashboard.users');
         } else {
-            flash()->addError('Existe um usuário com este email!');
+            flash()->addError('Existe um usuário com este e-mail!');
         }
     }
 

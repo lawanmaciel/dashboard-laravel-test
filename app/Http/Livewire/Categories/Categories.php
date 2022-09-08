@@ -42,19 +42,19 @@ class Categories extends Component
             'name' => $this->categoryName,
         ]);
         $this->categoryName = null;
-        flash()->addSuccess('Novo Categoria adicionado com sucesso!');
+        flash()->addSuccess('Novo Categoria adicionada com sucesso!');
     }
     public function editCategory()
     {
         Category::find($this->selectedItem)->update([
             'name' => $this->categoryEdit,
         ]);
-        flash()->addSuccess('Categoria atualizado com sucesso!');
+        flash()->addSuccess('Categoria atualizada com sucesso!');
     }
     public function deleteCategory()
     {
         Category::destroy($this->selectedItem);
-        flash()->addSuccess('Categoria deletado com sucesso!');
+        flash()->addSuccess('Categoria deletada com sucesso!');
     }
 
     public function render()

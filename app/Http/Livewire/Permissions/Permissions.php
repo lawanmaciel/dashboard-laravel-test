@@ -27,7 +27,7 @@ class Permissions extends Component
             flash()->addError('Existem usuários que usam essa permissão!');
         } else {
             Permission::destroy($this->selectedItem);
-            flash()->addSuccess('permissão deletada com sucesso!');
+            flash()->addSuccess('Permissão deletada com sucesso!');
         }
     }
 

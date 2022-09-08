@@ -42,19 +42,19 @@ class Brands extends Component
             'name' => $this->brandName,
         ]);
         $this->brandName = null;
-        flash()->addSuccess('Novo marca adicionado com sucesso!');
+        flash()->addSuccess('Novo marca adicionada com sucesso!');
     }
     public function editBrand()
     {
         Brand::find($this->selectedItem)->update([
             'name' => $this->brandEdit,
         ]);
-        flash()->addSuccess('Marca atualizado com sucesso!');
+        flash()->addSuccess('Marca atualizada com sucesso!');
     }
     public function deleteBrand()
     {
         Brand::destroy($this->selectedItem);
-        flash()->addSuccess('Marca deletado com sucesso!');
+        flash()->addSuccess('Marca deletada com sucesso!');
     }
 
     public function render()
