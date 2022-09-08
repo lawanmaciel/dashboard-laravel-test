@@ -1,5 +1,5 @@
 ## Laravel 9 - Dashboard Test.
-<h4>Projeto criado destinado a mostrar meus conhecimentos com laravel.</h4>
+<h4>Dashboard em laravel que conta com permissões, confira as features abaixo.</h4>
 
 ![](https://i.imgur.com/Gh0vZoD.png)
 ![](https://i.imgur.com/EiVx2TL.png)
